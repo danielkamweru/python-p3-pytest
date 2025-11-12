@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+# lib/testing/subdirectory/bool_test.py
 
-from not_none_functions import return_not_none
+from lib.bool_functions import return_true
 
-# def test_return_not_none():
-#     '''in not_none_functions, function "return_not_none" returns a value that is not None.'''
-#     assert False
+def test_return_true():
+    """Test that return_true() returns True."""
+    assert return_true() is True
